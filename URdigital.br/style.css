@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f7fafa;
+  color: #1a1a1a;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* HEADER */
+header {
+  background: white;
+  border-bottom: 1px solid #eee;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  color: #14b8a6;
+}
+
+.btn-top {
+  background: #14b8a6;
+  color: white;
+  padding: 10px 18px;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+/* HERO */
+.hero {
+  background: linear-gradient(135deg, #14b8a6, #0f766e);
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 25px;
+  background: white;
+  color: #14b8a6;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* SEÇÕES */
+section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+/* CARDS */
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  width: 250px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+/* PLANO */
+.plano ul {
+  list-style: none;
+  padding: 0;
+}
+
+.plano li {
+  margin: 10px 0;
+}
+
+.preco {
+  font-size: 40px;
+  color: #14b8a6;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+/* CTA FINAL */
+.cta {
+  background: #14b8a6;
+  color: white;
+}
+
+/* FOOTER */
+footer {
+  background: white;
+  text-align: center;
+  padding: 20px;
+  border-top: 1px solid #eee;
+}
